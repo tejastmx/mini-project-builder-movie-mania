@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js%27%3E"></script>
+
+</head>
+
+<body onload="showEnglish()">
+    <header>
+        <div id="list">
+            <img  id='logo' src="./assests/logo.png" alt="">
+            <h3>ProGrad</h3>
+            <div class="dropdown">
+                <button class="dropbtn">languages</button>
+                <div class="dropdown-content">
+                    <a onclick="showHindi()">HINDI</a>
+                    <a id="english" onclick="showEnglish()">ENGLISH</a>
+                    <a onclick="showMarathi()">MARATHI</a>
+                    <a onclick="showTelugu()">TELUGU</a>
+                    <a onclick="showTamil()"> TAMIL</a>
+                </div>
+            </div>
+            <h5 id="upcoming" onclick="showUpcoming()">Upcoming</h5>
+        </div>
+
+        <div id="popup">
+            <h3>Sorry no trailer avaliable</h3>
+            <button id="restart" onclick="hidePopUp()">Ok</button>
+        </div>
+
+    </header>
+    <section>
+
+        <!-- <h2>Hard kill</h2>
+        <p id="date">released 29-0-999</p>
+        <img id="pc" src="profile_picture.jpeg" alt="">
+        <img id="likeslogo" src="heart.png" alt="" height="20px" width="20px">
+        <p id="likes">110</p>
+        <img id="viewslogo" src="views.png" alt="" height="18px" width="20px">
+        <p id="views">11001100</p> -->
+        </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
